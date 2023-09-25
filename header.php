@@ -25,12 +25,12 @@
     <section id="headerSection" class="header__container">
     <header id="headerContainer">
         <div class="header__logo">
-            <a href="./main.php"><img src="./icons/Logo-s.svg" alt=""></a>
+            <a href="./index.php"><img src="./icons/Logo-s.svg" alt=""></a>
         </div>
 
         <div id="navigationMenu">
             <ul>
-                <li class="home"><a class="active" href="./main.php">მთავარი</a></li>
+                <li class="home"><a class="active" href="./index.php">მთავარი</a></li>
                 <li class="games"><a aria-disabled="" href="#" id="headerCategories">ციფრული თამაშები
                     <div class="header__categories" id="menuCategories">
                         <hr>
@@ -118,7 +118,7 @@
 
                                             <div class="mobile__nav">
                                 <ul>
-                                    <li class=""><a class="active" href="./main.php">მთავარი</a></li>
+                                    <li class=""><a class="active" href="./index.php">მთავარი</a></li>
                                     <li class=""><a aria-disabled="" href="#" id="headerCategories">ციფრული თამაშები
                                         <div class="header__categories" id="menuCategories">
                                             <hr>
