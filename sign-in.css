@@ -1,0 +1,82 @@
+.signin__headline {
+    font-family: CapsBlack;
+    font-size: 30px;
+    color: #fff;
+}
+.signin__hedder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign__in__bg {
+    border-radius: 16px;
+background: #0E0D1B;
+padding: 64px;
+max-width: 372px;
+}
+.sign__in__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    gap: 12px;
+}
+.submit__signin__btn {
+    padding-top: 32px;
+}
+.recover__account__btn button a {
+    font-family: Book;
+    font-size: 16px;
+    color: #fff;
+}
+.recover__account__btn button {
+    background-color: rgba(255, 235, 205, 0);
+    border: 0px;
+}
+.recover__account__btn {
+    padding-top: 16px;
+}
+.sign__in__main__section {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+}
+.go__signup__page span {
+    font-family: Book;
+    color: #fff;
+    font-size: 16px;
+}
+.go__signup__page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 44px;
+}
+.go__signup__page span a {
+    color: #6541F7;
+    padding-left: 6px;
+}
+.sign__in__main__section {
+    animation-name: signIn;
+    transition: all .2s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    animation-duration: 1s;
+}
+@keyframes signIn {
+    from {
+        transform: translate(0px, -1200px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+@keyframes signIn {
+    0% {
+        scale: 450%;
+        transform: translate(0px, -1200px);
+    }
+    100% {
+        scale: 100%;
+        transform: translate(0px, 0px);
+    }
+}

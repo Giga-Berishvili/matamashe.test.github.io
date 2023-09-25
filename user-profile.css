@@ -1,0 +1,506 @@
+.profile__details img{
+    width: 108px;
+    height: 108px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.profile__details span {
+    font-family: CapsMedium;
+    font-size: 10px;
+    color: #FFFFFF;
+    opacity: .75;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 8px;
+}
+.profile__details h1 {
+    font-family: CapsLight;
+    font-size: 14px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2px;
+}
+.profile__details h2 {
+    font-family: Book;
+    font-size: 10px;
+    color: #fff;
+    opacity: .75;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2px;
+}
+.profile__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user_setting {
+    width: 240px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    background: rgba(217, 217, 217, 0.03);
+    cursor: pointer;
+    justify-content: center;
+    gap: 16px;
+}
+.user_setting:hover {
+    border: 1px solid rgba(255, 255, 255, 0.214);
+}
+.user_setting span {
+    font-family: Book;
+    color: #E2E0FF;
+    font-size: 10px;
+}
+.user__profile__settings {
+    display: flex;
+    gap: 16px;
+    padding-top: 32px;
+}
+.user__profile__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.user__transactions__table thead tr th {
+    font-family: CapsLight;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    max-width: 160px;
+}
+.user__transactions__table tbody tr td {
+    font-family: Light;
+    font-size: 14px;
+    color: #ffffff96;
+    width: 156px;
+    padding: 4px;
+    text-align: center;
+}
+.user__transactions__table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 44px;
+}
+.user__transactions__table tbody tr {
+    height: 78px;
+    border-radius: 8px;
+}
+.user__transactions__table tbody tr:hover {
+    scale: 104%;
+    position: relative;
+    z-index: 111;
+    background-color: #11101E;
+    box-shadow: 0px 4px 4px 1436px rgba(0, 0, 0, 0.60);
+}
+.user__transactions__table thead tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.036);
+}
+.user__transactions__table tbody tr:nth-child(even) {
+    background-color: #161522; /* White background for even rows */
+    /* max-width: 1490px; */
+    width: 100%;
+}
+.transactions__table__container {
+    padding: 32px 20px;
+    border-radius: 12px;
+    background: rgba(217, 217, 217, 0.05);;
+}
+.transaction__heading_span {
+    color: #ffffff;
+    font-family: CapsBold;
+    font-size:  22px;
+}
+.openDetailsTableRow img{
+    cursor: pointer;
+    opacity: .5;
+    transition: .2s ease;
+}
+
+.openDetailsTableRow img:hover{
+    opacity: 1;
+}
+
+.status_label {
+    width: 100%;
+    border-radius: 100px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    font-family: Light;
+    font-size: 12px;
+}
+.problem {
+    color: #FF6464;
+    background-color: #311520;
+}
+.success {
+    color: #3DA134;
+    background-color: #162120;
+}
+.pending {
+    color: #D79534;
+    background-color: #2F2525;
+}
+.user__transactions__main {
+    padding-top: 44px;
+}
+.user__profile__main {
+    padding: 44px 32px 0px 32px;
+}
+.user__profile__settings {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    .productVersion, .productCategorie, .productOrderNumber, .productID, .productDate{
+       display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .productVersion, .productCategorie, .productOrderNumber, .productID, .productDate, .productStatus{
+       display: none;
+    }
+}
+
+.avatarChangeBg {
+    padding: 44px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: #030309;
+    box-shadow: 0px 4px 4px 5436px rgba(0, 0, 0, 0.90);
+    display: flex;
+    align-items: center;
+    align-items: center;
+    max-width: 400px;
+    /* width: 100%; */
+}
+.changeAvatar {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 760px;
+    z-index: 1;
+    top: 164px;
+    display: none;
+}
+.changePassword {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 760px;
+    z-index: 1;
+    top: 164px;
+    display: none;
+}
+
+.changeEmail {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 760px;
+    z-index: 1;
+    top: 164px;
+    display: none;
+}
+
+.changeName {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 760px;
+    z-index: 1;
+    top: 164px;
+    display: none;
+}
+
+.avatarChangeBg {
+    animation-name: test;
+    animation-duration: .5s;
+    transition: .2s ease-in-out;
+}
+
+@keyframes test {
+    from {
+        transform: translate(0px, -800px);
+        scale: 250%;
+    }
+    to {
+        transform: translate(0px, 0px);
+        scale: 100%;
+    }
+}
+.changePassbg {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 300px;
+}
+.name_change_btns {
+    padding-top: 12px;
+}
+
+.card {
+    width: 250px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    padding: 16px;
+}
+.card_visa {
+    background: linear-gradient(106deg, #0D132B 1.23%, #070A14 99.07%);
+
+}
+.card span {
+    font-family: Regular;
+    color: #fff;
+    font-size: 12px;
+}
+.added__card__headline {
+    font-family: CapsMedium;
+    color: #fff;
+}
+.card_details h1 {
+    font-family: Regular;
+    color: #fff;
+    margin: 0px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.card_details h2 {
+    font-family: Light;
+    color: #fff;
+    font-size: 12px;
+    margin: 0px;
+    opacity: .64;
+}
+.card h3 {
+    font-family: CapsBold;
+    color: #fff;
+    font-size: 12px;
+    margin: 0px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.edit_card {
+    padding: 9px;
+    border-radius: 6px;
+    background-color: #ffffff0b;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.edit_card:hover {
+    background-color: #ffffff23;
+}
+.delete_card {
+    padding: 10px 16px 6px 16px;
+    background-color: #1A060B;
+    color: #E41F1F;
+    font-size: 12px;
+    font-family: CapsBold;
+    border-radius: 6px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.delete_card:hover {
+    color: #fff;
+    background-color: #c21111;
+
+}
+.edit_delete_card_buttons {
+    display: flex;
+    gap: 8px;
+    padding-top: 6px;
+}
+.added__card__wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.cardSettings {
+    max-width: 1520px;
+}
+.card_master {
+    background: linear-gradient(106deg, #42020A 1.23%, #6B300D 99.07%);
+}
+.card_amex {
+    background: linear-gradient(106deg, #063259 1.23%, #043865 99.07%);
+}
+.cardSettings {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.add__new__card__headline {
+    font-family: CapsMedium;
+    font-size: 18px;
+    color: #fff;
+
+}
+.add__new__card__details {
+    padding-top: 64px;
+}
+.add__cart__details_wrp {
+    padding-top: 20px;
+}
+.cardSettingsWrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 474px;
+    z-index: 1;
+    top: 164px;
+    display: none;
+}
+.cardSettings {
+    height: 700px;
+    overflow: auto;
+}
+.cardSettings, .cardSettingsWrp, .avatarChangeBg   {
+    box-shadow: 0px 4px 4px 1591px rgba(0, 0, 0, 0.85);}
+.cardSettings::-webkit-scrollbar {
+    width: 4px; /* width of the scrollbar */
+  }
+.cardSettings::-webkit-scrollbar-thumb {
+    background: #6541F7; /* color of the thumb */
+    border-radius: 50px; /* rounded corners */
+  } 
+
+  .wallet__headline {
+      font-family: CapsMedium;
+      font-size: 18px;
+      color: #fff;
+    }
+    .balance_details h1 {
+        font-family: Regular;
+        font-size: 16px;
+        margin: 0px;
+        color: #ffffff;
+    }
+    .balance_details h2 {
+        font-family: Light;
+        font-size: 10px;
+        color: #fff;
+        opacity: .35;
+        margin: 0px;
+    }
+    .balance_details {
+        max-width: 200px;
+        padding: 14px 12px 10px 12px;
+        border-radius: 6px;
+        background: rgba(217, 217, 217, 0.04);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+    }
+    .wallet__parameters {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+    .withdraw__labels {
+        font-family: CapsLight;
+        color: #fff;
+        font-size: 12px;
+    }
+    .withdraw__labels {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        padding-top: 8px;
+        opacity: .6;
+    }
+    .name_input_contact {
+        margin-top: 8px;
+    }
+    .walletSettingsBg {
+        max-width: 278px;
+        
+    }
+    .walletSettings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    left: 776px;
+    z-index: 1;
+    top: 164px;
+    display: none;
+}
+
+.showSetting {
+  display: flex;
+}
+#closeCardSettings {
+    position: absolute; 
+    left: 940px; 
+    top: 18px; 
+    cursor: pointer;   
+}
+#closeChangeAvatar {
+    position: absolute;
+    top: 24px;
+    left: 450px;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .changeAvatar  {
+        left: 40px;
+    }
+    .changePassword {
+        left: 105px;
+    }
+    .changeEmail {
+        left: 114px;
+    }
+    .changeName {
+        left: 106px;
+    }
+    .cardSettings {
+        max-width: 386px;
+    }
+    .debit_card_details__bg {
+        all: unset;
+        min-width: 10px;
+    }
+    .cardSettingsWrp  {
+        left: 84px;
+    }
+    #closeCardSettings {
+        position: absolute;
+        left: 345px;
+        top: 18px;
+        cursor: pointer;
+    }
+    .walletSettings  {
+        left: 90px;
+    }
+}

@@ -1,0 +1,270 @@
+.background__image__for__product__details div, .background__image__for__product__details div img{
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+.product__details__left__side {
+    max-width: 1507px;
+    /* width: 100%; */
+}
+.product__details__left__side div, .product__details__left__side div img {
+    width: 880px;
+    height: 630px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.product__details__main__bg {
+    border-radius: 10px;
+    background: rgb(0 0 0 / 31%);
+    backdrop-filter: blur(33px);
+    padding: 64px;
+}
+.product__details__main__section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -404px;
+}
+.categorie__label, .version__label, .edition__label{
+    padding: 10px 24px 8px 24px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.109);
+    background: rgba(217, 217, 217, 0.03);
+    color: #ffffffe0;
+    font-family: CapsBook;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    flex-wrap: wrap;
+    display: flex;
+}
+.categorie__label:hover, .version__label:hover {
+    border: 1px solid rgba(255, 255, 255, 0.189);
+}
+
+.not_available {
+    display: none;
+}
+.checked {
+    background-color: #6541f73b;
+    border: 1px solid #6541F7;
+}
+.categorie__inputs input {
+    display: none;
+}
+.categorie__headline_tag {
+    font-family: CapsBook;
+    font-size: 14px;
+    color: #fff;
+}
+.categorie__labels, .version__labels{
+    padding-top: 8px;
+    display: flex;
+    gap: 8px;
+}
+.product__details__main__bg {
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+.version__select__menu, .edition__select__menu, .quantity__select__menu {
+    padding-top: 24px;
+}
+.product__details__naming {
+    display: flex;
+    flex-direction: column;
+}
+.product__name {
+    font-family: CapsMedium;
+    color: #fff;
+    font-size: 30px;
+}
+
+.product__publisher {
+    font-family: Book;
+    font-size: 20px;
+    color: #ffffff50;
+}
+.quantity__bg {
+    padding: 8px 2px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    background: rgba(217, 217, 217, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90px;
+}
+.quantity__bg input {
+    width: 40px;
+    background-color: #6541f700;
+    border: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: Book;
+    font-size: 14px;
+}
+.quantity__bg {
+    margin-top: 8px;
+}
+.quantity__bg input:focus {
+    outline: 0px;
+}
+#lowQuantityArrow {
+    rotate: 180deg;
+}
+
+.arrowDisabled {
+    opacity: 0.5;
+}
+#lowQuantityArrow, #highQuantityArrow {
+    cursor: pointer;
+}
+.categorie__select__menu {
+ padding-top: 32px;   
+}
+.old__price span {
+    font-family: CapsBook;
+    font-size: 18px;
+    color: #cf1818;
+    text-decoration: line-through;
+}
+.new__price span {
+    font-family: CapsBold;
+    font-size: 30px;
+    color: #fff;
+}
+.pricing__main__section {
+    padding-top: 40px;
+}
+.add__to__cart {
+    padding-top: 8px;
+}
+
+.product__description__container {
+    max-width: 1264px;
+    width: 100%;
+}
+.product__description__container span {
+    font-family: CapsBold;
+    color: #fff;
+    font-size: 26px;
+    padding-bottom: 24px;
+}
+.product__description__container div {
+    padding: 44px;
+    background-color: #0E0D1B;
+    border-radius: 14px;
+}
+.product__description__container div p {
+    text-align: left;
+    color: #ffffff60;
+    font-family: Book;
+    line-height: 2.5;
+    font-size: 14px;
+    white-space: pre-line;
+}
+.product__description__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__description__sec {
+    display: flex;
+    justify-content: center;
+    margin-top: -259px;
+}
+
+.product__account__details ul{
+    list-style: none;
+    max-width: 1264px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.product__account__details ul li {
+    font-family: CapsMedium;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.categorie__label__acc__det, .release__label__acc__det, .publisher__label__acc__det, .genre__label__acc__det, .voice__label__acc__det, .subtitles__label__acc__det{
+    font-family: Light;
+    color: #ffffff7a;
+    max-width: 400px;
+    text-align: right;
+}
+.product__account__details hr {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    margin: 24px 0px;
+}
+.product__account__details {
+    display: flex;
+    justify-content: center;
+}
+.line_under_details {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 64px 24px 64px 24px;
+}
+.line_under_details hr {
+    max-width: 1520px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.024);
+}
+/* -------------------- >>>>>>>>>>> repsonsive <<<<<<<<< --------------  */
+
+@media screen and (max-width: 600px) {
+    .product__details__main__bg {
+        flex-direction: column;
+        padding: 24px 24px;
+    }
+    .product__details__left__side, .product__details__left__side div, .product__details__left__side div img{
+        width: 320px;
+        object-fit: cover;
+        height: 230px;
+    }
+    .product__details__right__side {
+        max-width: 320px;
+    }
+    .product__details__main__section {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .product__account__details {
+        padding: 0px 24px;
+    }
+    .categorie__label__acc__det, .release__label__acc__det, .publisher__label__acc__det, .genre__label__acc__det, .voice__label__acc__det, .subtitles__label__acc__det{
+        font-family: Light;
+        color: #ffffff7a;
+        max-width: 400px;
+        text-align: center;
+    }
+    .product__account__details ul li {
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width: 300px) {
+    .product__details__left__side, .product__details__left__side div, .product__details__left__side div img{
+        width: 260px;
+        object-fit: cover;
+        height: 230px;
+    }
+    .product__details__main__bg {
+        flex-direction: column;
+        padding: 16px;
+    }
+    .product__details__main__section {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

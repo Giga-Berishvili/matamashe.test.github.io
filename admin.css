@@ -1,0 +1,361 @@
+* {
+    animation-duration: 1s;
+    transition: all .2s ease-in-out;
+}
+.admin_nav_bar_bg {
+    background-color: #0D0C1F;
+    height: 100%;
+}
+.admin_nav_upperside_left span {
+    font-family: Bold;
+    font-size: 20px;
+    color: #fff;
+}
+.admin_nav_upperside_left h1 {
+    margin: 0px;
+    color: #fff;
+    opacity: .77;
+    font-family: CapsLight;
+    font-size: 14px;
+}
+.admin_nav_upperside {
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.admin_nav_upperside_rightIMG {
+    opacity: .5;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    rotate: 180deg;
+}
+.admin_nav_upperside_rightIMG:hover {
+    opacity: 1;
+}
+.admin_nav_upperside {
+    padding: 24px;
+}
+.admin_navigation_ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.admin_nav_link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Light;
+    gap: 16px;
+}
+.admin_nav_link{
+    padding: 16px;
+    width: 276px;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    opacity: .5;
+    border-radius: 8px;
+}
+.admin_nav_link:hover{
+    padding: 16px;
+    opacity: .7;
+}
+.admin_nav_lowerside {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.adminActive {
+    opacity: 1;
+    background: #3C34C7;
+}
+.admin_nav_bar_bg {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.admin_nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.wrappedLeftSide {
+    display: none;
+    transition: .2s ease-in-out;
+}
+.wrappedLinkTexts {
+    display: none;
+    transition: .2s ease-in-out;
+}
+.wrappedLi {
+    all: unset;
+    padding: 16px;
+    width: auto;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+    opacity: .5;
+    border-radius: 8px;
+    transition: .2s ease-in-out;
+}
+.rotateWrapper {
+    rotate: 360deg;
+    transition: .2s ease-in-out;
+}
+.admin_nav_bar_bg {
+    align-items: center;
+    transition: .2s ease-in-out;
+}
+.gapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: all .2s ease-in-out;
+}
+.upload_products_main_wrapper {
+    display: flex;
+}
+.upload_product_bg {
+    padding: 64px;
+    border-radius: 10px;
+    background: #0B0A1D;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.upload_header {
+    font-family: CapsBold;
+    color: #fff;
+    font-size: 24px;
+}
+
+.div_heading_spans {
+    font-family: CapsBook;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.game_name_publisher {
+    display: flex;
+    gap: 14px;
+}
+
+
+.checkmarks {
+    display: none;
+}
+
+
+/* Hide default checkboxes */
+.ps4_cth_choose input[type="checkbox"],
+.ps5_cth_choose input[type="checkbox"] {
+    display: none;
+}
+
+/* Style the custom checkbox */
+.ps4_cth_choose label,
+.ps5_cth_choose label {
+    position: relative;
+    padding-left: 30px; /* Space for the custom checkbox */
+    cursor: pointer;
+}
+
+.ps4_cth_choose label::before,
+.ps5_cth_choose label::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #cccccc00; /* Background color when unchecked */
+    border: 1px solid #41404F; /* Border when unchecked */
+    position: absolute;
+    border-radius: 4px;
+    left: 0;
+    top: -3px;
+}
+
+/* Style the custom checkbox when checked */
+.ps4_cth_choose input[type="checkbox"]:checked + label::before,
+.ps5_cth_choose input[type="checkbox"]:checked + label::before {
+    background-color: #FFFFFF; /* Background color when checked */
+    border: 1px solid #FFFFFF; /* Border when checked */
+}
+.checkmarks {
+    position: relative;
+    top: -16px;
+    left: 2px;
+}
+.checked {
+    display: block;
+}
+
+.ps4_cth_choose label, .ps5_cth_choose label {
+    font-family: Book;
+    font-size: 12px;
+    color: #fff;
+}
+.ctg_wrap {
+    display: flex;
+    gap: 44px;
+}
+
+
+.radio_btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid #41404F;
+    cursor: pointer;
+}
+.radioCenter {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    position: relative;
+    top: -17.5px;
+    left: 2px;
+    display: none;
+}
+
+.radio_btn input {
+    display: none;
+}
+.radio_btn label {
+    position: relative;
+    left: 22px;
+    top: -4px;
+    color: #fff;
+    font-family: Book;
+    font-size: 12px;
+}
+.choose_edition_quantity {
+    display: flex;
+    flex-direction: column;
+}
+.radioChecked {
+    border: 1px solid #fff;
+}
+.showRadio {
+    display: block;
+}
+.radio_btn_editions {
+    display: flex;
+    gap: 54px;
+}
+.ps4_secondary_primary_pricing {
+    display: flex;
+    justify-content: space-between;
+}
+.ps5_secondary_primary_pricing {
+    display: flex;
+    justify-content: space-between;
+}
+.profileImgDefault {
+    width: auto;
+    height: 140px;
+    border-radius: 8px;
+    border: 1px dashed #383743;
+    background: rgba(255, 255, 255, 0.01);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.profileImgDefault:hover {
+    border: 1px dashed #413f53;
+    background: rgba(255, 255, 255, 0.048);
+}
+.profileImgDefault span {
+    text-align: center;
+    color: #fff;
+    font-family: Light;
+    font-size: 12px;
+    opacity: .5;
+}
+.profileImgDefault input {
+    display: none;
+}
+.default_edition_profile_images {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.image_input {
+    width: 100%;
+}
+.inputs_for_default_pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.moreInfo_game_det {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.submit_product_upload {
+    padding-top: 44px;
+}
+.upload_right_aside {
+    position: relative;
+    left: 400px;
+}
+.alert {
+    padding: 24px 32px;
+    border-radius: 8px;
+    display: flex;
+    box-shadow: 0px 4px 4px 1436px rgba(0, 0, 0, 0.762);
+    display: none;
+}
+.alerts_admin_panel {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    top: 444px;
+}
+.alerts_admin_panelCnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert_error {
+    background-color: #1A060B;
+    display: flex;
+    animation-name: alert;
+    animation-duration: 1s;
+    transition: .2s ease-in-out;
+}
+.alert_success {
+    background-color: #162120;
+    display: flex;
+    animation-name: alert;
+    animation-duration: 1s;
+    transition: .2s ease-in-out;
+}
+@keyframes alert {
+    from {
+        transform: translate(0, 1000px)
+    }
+    to {
+        transform: translate(0,0px);
+    }
+    
+}
+.alert_success span {
+    color: #3DA134;
+    font-family: CapsRegular;
+    text-align: center;
+}
+.alert_error span {
+    color: #E41F1F;
+    font-family: CapsRegular;
+    text-align: center;
+}

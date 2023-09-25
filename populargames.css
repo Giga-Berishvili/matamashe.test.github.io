@@ -1,0 +1,157 @@
+.popular__games__box {
+    text-decoration: none;
+}
+.upper_side_popular_games div span{
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    background-color: #FAFAFA;
+    color: #000000;
+    font-family: Book;
+    font-size: 12px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.upper_side_popular_games div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: static;
+    transform: translate(230px, 44px);
+}
+.lower_side_popular_games span {
+    font-family: Book;
+    font-size: 12px;
+    color: #ffffffdd;
+}
+.lower_side_popular_games h2{
+    font-family: CapsMedium;
+    color: #fff;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.lower_side_popular_games h1{
+    font-family: CapsMedium;
+    color: #67666F;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
+.lower_side_popular_games {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 12px;
+    max-width: 368px;
+}
+.upper_side_popular_games {
+    max-width: 368px;
+    height: 484px;
+}
+.upper_side_popular_games img {
+    border-radius: 14px;
+    width: 368px;
+    height: 454px;
+    object-fit: cover;
+}
+.popular__games__box__cont {
+    max-width: 368px;
+    height: 570px;
+}
+.popular__games__box {
+    max-width: 368px;
+    height: 570px;
+    display: block;
+}
+.popular__games__box {
+    transition: .2s ease-in-out;
+}
+.popular__games__box:hover {
+    scale: 102%;
+}
+
+.see_more_popular_games_headline h1{
+    font-family: CapsBold;
+    font-size: 18px;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+.see_more_popular_games button{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 0px;
+}
+.see_more_popular_games button a{
+    font-family: CapsBold;
+    font-size: 16px;
+    color: #DCD3FF; 
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    transition: .2s ease-in-out;
+}
+.see_more_popular_games button:hover .seemorepopulargamesAtag {
+    gap: 30px;
+}
+.popular__games__section__cont {
+    max-width: 1520px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 168px;
+}
+.popular__games__section {
+    display: flex;
+    justify-content: center;
+}
+.see_more_popular_games_headline {
+    padding-bottom: 24px;
+}
+.see_more_popular_games {
+    display: flex;
+    justify-content: end;
+    padding-top: 64px;
+}
+.see_more_popular_games_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .see_more_popular_games_wrapper {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 644px;
+
+    }
+    .see_more_popular_games_wrapper::-webkit-scrollbar {
+        width: 4px; /* width of the scrollbar */
+    }
+    .see_more_popular_games_wrapper::-webkit-scrollbar-thumb {
+        background: #6541F7; /* color of the thumb */
+        border-radius: 50px; /* rounded corners */
+    } 
+    .upper_side_popular_games {
+        height: 484px;
+    }
+    .popular__games__section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+}

@@ -1,0 +1,63 @@
+/* Upper Case TBC Contractia Font */
+
+@font-face {
+    font-family: CapsLight;
+    src: url(./fonts/TBCContracticaCAPS-Light.ttf);
+}
+
+@font-face {
+    font-family: CapsBook;
+    src: url(./fonts/TBCContracticaCAPS-Book.ttf);
+}
+
+@font-face {
+    font-family: CapsRegular;
+    src: url(./fonts/TBCContracticaCAPS-Regular.ttf);
+}
+
+@font-face {
+    font-family: CapsMedium;
+    src: url(./fonts/TBCContracticaCAPS-Medium.ttf);
+}
+
+@font-face {
+    font-family: CapsBold;
+    src: url(./fonts/TBCContracticaCAPS-Bold.ttf);
+}
+
+@font-face {
+    font-family: CapsBlack;
+    src: url(./fonts/TBCContracticaCAPS-Black.ttf);
+}
+
+/* Lowwer case TBC Contractia Font */
+
+@font-face {
+    font-family: Light;
+    src: url(./fonts/TBCContractica-Light.ttf);
+}
+
+@font-face {
+    font-family: Book;
+    src: url(./fonts/TBCContractica-Book.ttf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(./fonts/TBCContractica-Regular.ttf);
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(./fonts/TBCContractica-Medium.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(./fonts/TBCContractica-Bold.ttf);
+}
+
+@font-face {
+    font-family: Blck;
+    src: url(./fonts/TBCContractica-Black.ttf);
+}
